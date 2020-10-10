@@ -26,14 +26,15 @@ main {
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-content: center;
   overflow-x: hidden;
 }
 
 .hero {
   margin: auto 0;
-  padding: 0 3rem;
+  padding: 0 1em;
 
   &__title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }

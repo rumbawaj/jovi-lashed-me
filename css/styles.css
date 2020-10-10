@@ -31,15 +31,17 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   overflow-x: hidden;
 }
 
 .hero {
   margin: auto 0;
-  padding: 0 3rem;
+  padding: 0 1em;
 }
 
 .hero__title {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 /*# sourceMappingURL=styles.css.map */
