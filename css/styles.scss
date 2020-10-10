@@ -1,7 +1,19 @@
 *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*,
 body {
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 
 body {
@@ -14,6 +26,7 @@ main {
   height: 100vh;
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .hero {
